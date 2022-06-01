@@ -1,0 +1,83 @@
+
+body{
+    background-image: url(./images/pic1.jpg.jpg);
+}
+.container{
+    text-align: center;
+    margin-top:23px
+
+}
+
+
+
+input{
+    border-radius: 21px;
+    border: 5px solid #244624;
+    font-size:34px;
+    height: 65px;
+    width: 456px;
+    margin-bottom: 20px;
+}
+
+button{
+    border-radius: 20px;
+    font-size: 50px;
+    background: #09a1e7;
+    width: 100px;
+    height: 80px;
+    margin: 6px;
+}
+
+.calculator{ 
+    border: 4px solid #13695d;
+    background-color: black;
+    padding: 20px;
+    border-radius: 53px;
+    display:inline-block;
+    margin-right: 400px;
+    margin-left: 400px;
+    
+}
+
+h1{
+    font-size: 28px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.one{
+background-color: orange;
+}
+
+.two{
+    background-color: orange;
+    }
+
+    .three{
+        background-color: orange;
+        }   
+.four{
+    background-color: orange;
+}        
+
+.five{
+    background-color: orange;
+    }
+    
+    .six{
+        background-color: orange;
+        }
+    
+        .seven{
+            background-color: orange;
+            }   
+    .eight{
+        background-color: orange;
+    }   
+
+     
+    .nine{
+        background-color: orange;
+        }   
+.zero{
+    background-color: orange;
+}  
