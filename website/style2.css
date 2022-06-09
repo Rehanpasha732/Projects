@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+
+.main-content{
+    background-image: url(./images/franchise2.jpg);
+    height: auto;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-bottom: 40px;
+    
+}
+.logo{
+    width: auto;
+    margin-left: 20px;
+    padding-top: 10px;
+}
+a:hover img{
+    transform: scale(1.2);
+}
+.logo a img{
+    transition: .5s ease;
+}
+.header
+{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px 50px;
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+.nav a:hover{
+    color: red;
+    transition: 1s ease;
+    
+
+}
+a.home{
+    color: red;
+}
+.nav li{
+    list-style: none;
+    float: left;
+    margin-right: 50px;
+    font-family: sans-serif;
+}
+.btn{
+    margin-right: 70px;
+    background-color: transparent;
+    border: 2px solid crimson;
+    padding: 8px 35px;
+    border-radius: 5px;
+}
+.btn a{
+    color: white;
+    text-decoration: none;
+    /* transition: 5s step-end; */
+    display: inline-block;
+
+ 
+}
+ .btn:hover{
+color: white;
+background-color: crimson;
+transition: 1s ease;
+}
+.main-text .main{
+    margin-top: 100px;
+    text-align: center;
+ 
+}
+.main h1{
+    color: white;
+    font-size: 70px;
+}
