@@ -1,0 +1,135 @@
+body{
+    font-family: sans-serif;
+    background-color: #eeeeee;
+
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: o 20px;
+    position: relative;
+}
+#header{
+    display: flex;
+    max-width: 100%;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 20px;
+
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: #eeeeee;
+}
+.logo{
+    display: flex;
+}
+.logo img{
+    width: 100%;
+    border-radius: 50%;
+}
+nav#nav-bar ul{
+    display: flex;
+
+}
+nav#nav-bar ul li{
+    margin-left: 2rem;
+}
+nav#nav-bar ul li a{
+    color: #111;
+}
+.form{
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 250;
+
+
+}
+.form form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 430px;
+    width: 100%;
+}
+.form form input{
+    display: block;
+}
+.form form input:first-child{
+    margin-bottom: 20px;
+    max-width: 300px;
+    background-color: #ffffff;
+    padding: 5px;
+    width: 100%;
+}
+.forn form input:last-child{
+    margin-bottom: 20px;
+    background-color: #f1c40f;
+    padding: 4px 20px;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 4px;
+}
+#features{
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#features .featured-wrapper{
+    display: flex;
+    align-items: center;
+}
+.featured-text{
+    margin-left: 3.5rem;
+}
+.featured-text h2{
+    font-size: 1.5rem;
+}
+.featured-text p{
+    opacity: 0.8;
+}
+#pricing{
+    width: 100% ;
+    display: flex;
+    flex-direction: column;
+
+}
+#pricing .card{
+    margin: 0 auto;
+    margin-bottom: 15px;
+    border: 1px;
+    max-width: 340px;
+    width: 100%;
+    border-radius: 4px;
+    text-align: center;
+}
+#pricing .card h2{
+    background-color: #dddddd;
+    color: black;
+    padding: 15px 0;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0%;
+    margin-bottom: 15px;
+
+}
+#pricing .card strong{
+    font-size: 24px;
+}
+#pricing .card button{
+    border: 0;
+    margin: 15px 0;
+    background-color: #f1c40f;
+    padding:  8px 20px;
+    border-radius: 2px;
+    cursor: pointer;
+    font-size: 24px;
+}
